@@ -1,9 +1,7 @@
-import React, { useState, useEffect} from 'react';
+import React from 'react';
 import axios from 'axios';
 
 var App = () => {
- var [] = useState();
-
  // Inline Styles
  const getButton = {
   'backgroundColor': 'green',
@@ -31,7 +29,7 @@ var App = () => {
 // Get Req
 
  var getServer = () => {
-  axios.get('/getTodos')
+  axios('/getTodos')
     .then(data => console.log(data))
     .catch(err => console.log(err));
  }
