@@ -1,6 +1,6 @@
 # axiosExample
 
-This is a small repository created to showcase how to use axios to make POST and GET request using the JSONPlaceholder API for mock data.
+This is a small repository created to showcase how to use axios to make POST and GET request using the JSONPlaceholder API for mock data. It is to exemplify the different ways to write these request out, please follow the instuctions below to view the examples as well as use them in the repo.
 
 
 
